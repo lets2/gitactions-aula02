@@ -1,5 +1,5 @@
-name: Typescript workflow build
-run-name: Run typescript workflow build
+name: Typescript workflow build and test
+run-name: Run typescript workflow build and test
 on:
     push:
         branches:
