@@ -12,4 +12,4 @@ jobs:
             - name: deploy
               uses: fjogeleit/http-request-action@v1
               with:
-                  url: "${{ secrets.ACTIONS_PRODUCTION_DEPLOY_KEY_}}"
+                  url: ${{ secrets.ACTIONS_PRODUCTION_DEPLOY_KEY }}
